@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body{
+    background: #fff;
+    margin: 0em;
+    }
+    
+    .slperekhodnik{
+    max-width: 38em;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 100%;
+    }
+    
+    .gablok_sedakoda{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    }
+    
+    .slayder_karusel{
+    position: relative;
+    width: 500%;
+    font-size: 0;
+    animation: 12s gablok_sedakoda-ani infinite;
+    }
+    
+    .slayder_karusel figure{
+    width: 20%;
+    height: auto;
+    display: inline-block;
+    position: inherit;
+    }
+    
+    .slayder_karusel img{
+    width: 1000px;
+    height: 700px;
+    vertical-align: bottom;
+    }
+    
+    
+    @keyframes gablok_sedakoda-ani{
+    0%{
+    left: 0%;
+    }
+    
+    20%{
+    left: 0%;
+    }
+    
+    25%{
+    left: -100%;
+    }
+    
+    45%{
+    left: -100%;
+    }
+    
+    50%{
+    left: -200%;
+    }
+    
+    70%{
+    left: -200%;
+    }
+    
+    75%{
+    left: -300%;
+    }
+    
+    95%{
+    left: -300%;
+    }
+    
+    100%{
+    left: -400%;
+    }
+    
+    }
+    .text-block {
+        margin-left:300px;
+        margin-top: 20px;
+        }
